@@ -1,0 +1,17 @@
+[
+	{
+		"name": "HOST", 
+		"rank": 8, 
+		"permissions": ["stats", "stop"]
+	}, 
+	{
+		"name": "ADMIN", 
+		"rank": 6, 
+		"permissions": ["ban", "unban", "get_bans"]
+	}, 
+	{
+		"name": "TEST", 
+		"rank": 2, 
+		"permissions": ["help"]
+	}
+]

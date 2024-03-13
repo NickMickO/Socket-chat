@@ -1,0 +1,14 @@
+{
+	"version": "0.6.0", 
+	"ip": "127.0.0.1", 
+	"port": 8001, 
+	"max_users": 99, 
+	"max_chats": 99, 
+	"token_len": 12, 
+	"global_chat": true,
+	"username_len" : 4,
+	"userpass_len" : 6,
+	"minadmin_rank" : 2,
+	"maxadmin_rank" : 8,
+	"guests" : false
+}

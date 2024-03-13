@@ -1,0 +1,91 @@
+[
+	{
+		"name": "ping", 
+		"actions": [
+			{
+				"function": "ping", 
+				"args": []
+			},
+			{
+				"function": "ping", 
+				"args": []
+			},
+			{
+				"function": "ping", 
+				"args": []
+			}
+		], 
+		"special_flag": false
+	},
+	{
+		"name": "users",
+		"actions": [
+			{
+				"function":"get_users",
+				"args": []
+			}
+		],
+		"special_flag": false
+	},
+	{
+		"name": "help",
+		"actions":[
+			{
+				"function": "help",
+				"args": []
+			}
+		],
+		"special_flag": false
+	},
+	{
+		"name":"stop",
+		"actions":[
+			{
+				"function": "stop",
+				"args": []
+			}
+		],
+		"special_flag":false
+	},
+	{
+		"name":"ban",
+		"actions":[
+			{
+				"function": "ban",
+				"args": ["#INPUT", "#INPUT", "#INPUT"]
+			}
+		],
+		"special_flag":false
+	},
+	{
+		"name":"unban",
+		"actions":[
+			{
+				"function": "unban",
+				"args": ["#INPUT"]
+			}
+		],
+		"special_flag":false
+	},
+	{
+		"name":"bans",
+		"actions":[
+			{
+				"function": "get_bans",
+				"args": []
+			}
+		],
+		"special_flag":false
+	},
+	{
+		"name":"setrank",
+		"actions":[
+			{
+				"function": "setrank",
+				"args": ["#INPUT", "#INPUT"]
+			}
+		],
+		"special_flag":false
+	}
+
+]
